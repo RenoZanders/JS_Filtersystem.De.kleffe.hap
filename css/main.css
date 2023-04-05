@@ -1,0 +1,100 @@
+/* colors {
+color: #FFFCF2; white
+color: #CCC5B9 light grey
+color: #403d39 grey
+color: #252422 dark grey
+color: #EB5E28 orange
+
+categories:
+Frietgerechten
+Huisgemaakte snacks
+Snacks
+Combinatie menu
+Hamburger gerechten
+IJs gerechten
+Koude sauzen
+Warme sauzen
+Koude dranken
+Warme dranken
+} */
+
+/* general */
+* {
+    font-family: Verdana;
+}
+
+.bgcolor {
+    background-color: #FFFCF2;
+}
+
+/* banner */
+.wrapper {
+    background-color: #403d39;
+}
+
+.logo {
+    width: 100%;
+    padding: 10px;
+}
+
+.title {
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: "Hind",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-transform: none;
+    letter-spacing: 0;
+    line-height: 24px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* checkboxes */
+
+.chkwrapper {
+    background-color: #CCC5B9;
+    height: 400px;
+    font-size: 20px;
+}
+
+.productimages {
+    padding: 10px;
+    position: sticky;
+    width: 100%;
+}
+
+.benus{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .benus div{
+    margin: 10px
+} */
+
+.benus div label{
+    cursor: pointer;
+}
+
+.benus div label input [type="checkbox"]
+{
+    display: none;
+}
+
+.benus div label span{
+    position: relative;
+    display: inline-block;
+    background: #403d39;
+    padding: 15px 30px;
+    color: #555;
+    text-shadow: 0 1px 4px rgb(0,0,0.5);
+    border-radius: 30px;
+    font-size: 20px;
+}
